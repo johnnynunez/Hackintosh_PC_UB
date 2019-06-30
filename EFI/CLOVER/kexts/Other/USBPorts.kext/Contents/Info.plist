@@ -38,12 +38,14 @@
 			<dict>
 				<key>port-count</key>
 				<data>
-				BgAAAA==
+				BAAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
 					<key>HP11</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>1</integer>
 						<key>port</key>
 						<data>
 						AQAAAA==
@@ -53,6 +55,8 @@
 					</dict>
 					<key>HP12</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AgAAAA==
@@ -62,6 +66,8 @@
 					</dict>
 					<key>HP13</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>2</integer>
 						<key>port</key>
 						<data>
 						AwAAAA==
@@ -71,6 +77,8 @@
 					</dict>
 					<key>HP14</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>2</integer>
 						<key>port</key>
 						<data>
 						BAAAAA==
@@ -78,26 +86,10 @@
 						<key>portType</key>
 						<integer>0</integer>
 					</dict>
-					<key>HP15</key>
-					<dict>
-						<key>port</key>
-						<data>
-						BQAAAA==
-						</data>
-						<key>portType</key>
-						<integer>0</integer>
-					</dict>
-					<key>HP16</key>
-					<dict>
-						<key>port</key>
-						<data>
-						BgAAAA==
-						</data>
-						<key>portType</key>
-						<integer>0</integer>
-					</dict>
 					<key>PR11</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>2</integer>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -132,15 +124,30 @@
 				<dict>
 					<key>HP21</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>1</integer>
 						<key>port</key>
 						<data>
 						AQAAAA==
+						</data>
+						<key>portType</key>
+						<integer>255</integer>
+					</dict>
+					<key>HP22</key>
+					<dict>
+						<key>DevSpeed</key>
+						<integer>2</integer>
+						<key>port</key>
+						<data>
+						AgAAAA==
 						</data>
 						<key>portType</key>
 						<integer>0</integer>
 					</dict>
 					<key>HP23</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>2</integer>
 						<key>port</key>
 						<data>
 						AwAAAA==
@@ -150,6 +157,8 @@
 					</dict>
 					<key>HP24</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>2</integer>
 						<key>port</key>
 						<data>
 						BAAAAA==
@@ -159,6 +168,8 @@
 					</dict>
 					<key>PR21</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>2</integer>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
